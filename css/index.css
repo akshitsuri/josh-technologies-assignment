@@ -2,16 +2,42 @@
   height: 35px;
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 30px 110px;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-head {
+  margin-left: 0.8rem;
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  color: #202020;
 }
 
 #nav-links {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
 }
 
 #nav-item {
-  margin-left: 2rem;
+  margin-left: 2.3rem;
   list-style: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  color: #515151;
+}
+
+#subscribe {
+  margin-left: 3rem;
+  height: 40px;
+  width: 140px;
+  background-color: #ff5203;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
 }
