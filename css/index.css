@@ -1,3 +1,8 @@
+.header {
+  height: 830px;
+  /* background: url("../img/man.png") no-repeat center center / cover; */
+  background-color: #fbfbfb;
+}
 .nav {
   height: 35px;
   display: flex;
@@ -36,6 +41,13 @@ a {
   margin-top: 3px;
 }
 
+#underline2 {
+  background-color: #ff5203;
+  width: 35px;
+  height: 2px;
+  margin-top: 3px;
+}
+
 .active-link {
   display: flex;
   flex-direction: column;
@@ -64,4 +76,51 @@ li.active {
   color: #fff;
   border: none;
   border-radius: 5px;
+}
+
+#explore {
+  height: 40px;
+  width: 120px;
+  background-color: #ff5203;
+  color: #fff;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.text-header {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+img#man {
+  height: 750px;
+  margin-right: -1rem;
+}
+
+.main-heading {
+  font-size: 3.4rem;
+}
+
+.sub-heading {
+  color: #515151;
+  font-size: 1.2rem;
+}
+
+.heading-container {
+  width: 50%;
+  margin: 6rem 6rem;
+}
+
+.sub-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: -2.5rem;
+}
+
+.sub-title-head {
+  margin-left: 0.8rem;
+  color: #ff5203;
 }
