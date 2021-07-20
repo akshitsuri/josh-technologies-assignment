@@ -25,11 +25,35 @@
   margin: 0;
 }
 
-#nav-item {
+a {
+  text-decoration: none;
+}
+
+#underline {
+  background-color: #ff5203;
+  width: 50px;
+  height: 2px;
+  margin-top: 3px;
+}
+
+.active-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li.active {
+  margin: 5px 0;
+  color: #ff5203;
+}
+
+.nav-item {
   margin-left: 2.3rem;
   list-style: none;
   font-size: 1.2rem;
   color: #515151;
+  text-decoration: none;
 }
 
 #subscribe {
