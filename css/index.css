@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   height: 830px;
   /* background: url("../img/man.png") no-repeat center center / cover; */
@@ -101,7 +105,7 @@ img#man {
 
 .main-heading {
   font-size: 3.3rem;
-  letter-spacing: 0.08rem;
+  letter-spacing: 0.05rem;
 }
 
 .sub-heading {
