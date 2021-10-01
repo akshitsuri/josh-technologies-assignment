@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Register</h1>
+        <label for="1">First Name:
+    <input id="1" type="text" placeholder="John" required></label>
+        <label for="2">Last Name:
+    <input id="2" type="text" placeholder="Smith" required></label>
+        <br>
+        <label for="3">
+        Male <input id="3"   type="radio" name="gender">
+        Female <input id="3" type="radio" name="gender">
+        Other <input id="3"  type="radio" name="gender">
+    </label>
+        <br>
+        <label for="4">Email:</label>
+        <input ID="4" type="email" placeholder="your email" required>
+        <label for="5">Password:</label>
+        <input id="5" type="password" placeholder="your password" pattern=".{5,10}" title="between 5 and 10" required>
+        <br>
+        <label for="6">Birthday:
+        <select name="month"required>
+            <option>Month</option>
+            <option>JAN</option>
+            <option>FEB</option>
+            <option>MAR</option>
+            <option>APR</option>
+            <option>MAY</option>
+            <option>JUN</option>
+            <option>JUL</option>
+            <option>AUG</option>
+            <option>SEP</option>
+            <option>OCT</option>
+            <option>NOV</option>
+            <option>DEC</option>
+        </select>
+        <select month="day" required>
+            <option>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>APR</option>
+            <option>MAY</option>
+            <option>JUN</option>
+            <option>JUL</option>
+            <option>AUG</option>
+            <option>SEP</option>
+            <option>OCT</option>
+            <option>NOV</option>
+            <option>DEC</option>
+        </select>
+        <select day="year" required>
+            <option>Year</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>MAY</option>
+            <option>JUN</option>
+            <option>JUL</option>
+            <option>AUG</option>
+            <option>SEP</option>
+            <option>OCT</option>
+            <option>NOV</option>
+            <option>DEC</option>
+        </select>
+    </label>
+        <br>
+        <p>I agree to the terms and conditions
+            <input type="checkbox">
+        </p>
+        <button> Submit</button>
+    </form>
+
+</body>
+
+</html>
